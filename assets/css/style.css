@@ -167,7 +167,7 @@ body { background: var(--smoky-black); }
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: #c59d7f;
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -1887,4 +1887,8 @@ git push
 
 git add style.css
 git commit -m "Changed background color to #F7C59F"
+git push
+
+git add style.css
+git commit -m "Changed article background color to #c59d7f"
 git push
