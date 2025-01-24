@@ -535,7 +535,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  background: #EBF5DC;
   border-radius: inherit;
   z-index: -1;
 }
@@ -1891,4 +1891,8 @@ git push
 
 git add style.css 
 git commit -m "Changed text colors to dark grey" 
+git push
+
+git add style.css 
+git commit -m "Changed more text colors to beige" 
 git push
