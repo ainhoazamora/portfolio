@@ -524,7 +524,7 @@ main {
 
 .service-item {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: #EBF5DC;
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
@@ -1891,6 +1891,10 @@ git push
 
 git add style.css 
 git commit -m "Changed text colors to dark grey" 
+git push
+
+git add style.css 
+git commit -m "Changed more text colors to beige" 
 git push
 
 git add style.css 
