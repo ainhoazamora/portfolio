@@ -76,40 +76,46 @@ Resume
 Education
 
 Erasmus University Rotterdam & Ghent Universiteit
-2024 — 2026 (expected)
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+    2024 — 2026 (expected)
+IMARC PROGRAMME - International Master´s Advanced Research in Criminology
+++++INFO INFO INOF ++++
 
-New york academy of art
-2006 — 2007
-Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
+University of Bristol
+    2020 — 2023
+Bachelor of Science in Criminology
+    - Modules include Globalisation and Crime, Criminalising Welfare, Gender-Based 
+      Violence, and Social Research Methods.
+    - Use of statistical software such as SPSS, ANOVA, NVIVO.
 
-High school of art and design
-2002 — 2004
-Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+Agora Barcelona International School
+    2018 — 2020
+International Baccalaureate Diploma Programme
 
 Experience
 
-Creative director
-2015 — Present
-Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
+Commercial Coordinator
+    2023 — Present
+Inditex - Zara (UK) & Stradivarius (The Netherlands)
 
-Art director
-2013 — 2015
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Peer-Mentor
+    2021 — 2023
+University of Bristol
 
-Web designer
-2010 — 2013
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Research Internship
+    2010 — 2013
+Key4Life Organisation
+- Developing a report about rehabilitative programmes for young offenders at risk of going to prison across London and the South West of the United Kingdom.
+
 
 My skills
 
-Web design
-80%
-Graphic design
+Qualitative studies
 70%
-Branding
+Quantitative studies
+80%
+++++
 90%
-WordPress
+++++
 50%
 
 
@@ -220,3 +226,9 @@ Email address
 Your Message
 
 Send Message
+
+mv index.txt index.html
+
+
+
+
