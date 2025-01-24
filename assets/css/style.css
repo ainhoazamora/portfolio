@@ -60,13 +60,13 @@
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
   --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: #8A9FA3;
-  --white-1: hsl(0, 0%, 100%);
-  --white-2: hsl(0, 0%, 98%);
+  --smoky-black: #728675;
+  --white-1: #333333;
+  --white-2: #444444;
   --orange-yellow-crayola: hsl(45, 100%, 72%);
   --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 0%, 84%);
-  --light-gray-70: hsla(0, 0%, 84%, 0.7);
+  --light-gray: #666666;
+  --light-gray-70: hsla(0, 0%, 40%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
   /**
@@ -167,7 +167,7 @@ body { background: var(--smoky-black); }
 
 .sidebar,
 article {
-  background: #EBF5DC;
+  background: #AFBDA9;
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -1881,53 +1881,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
-git add .
-git commit -m "Changed background color to #F7C59F"
-git push
-
-git add style.css
-git commit -m "Changed background color to #F7C59F"
-git push
-
-git add style.css
-git commit -m "Changed article background color to #c59d7f"
-git push
-
-git add style.css
-git commit -m "Changed background color to #8A9FA3"
-git push
-
 git add style.css
 git commit -m "Updated background colors"
 git push
 
-/* CSS Variables */
-:root {
-  --smoky-black: #294969; /* Indigo dye */
-}
-
-/* Main background */
-.sidebar,
-article {
-  background: #8A9FA3; /* Cadet gray */
-}
-
-/* Service items, cards, etc */
-.service-item,
-.testimonials-item,
-.content-card,
-.blog-post-item > a::before {
-  background: #EBF5DC !important; /* Beige */
-}
-
-/* Accents/hover states */
-.modal-close-btn,
-.filter-select,
-.select-list {
-  background: #AFBDA9; /* Ash gray */
-}
-
+git add style.css 
+git commit -m "Updated colors with HSL equivalent of #728575 and AFBDA9" 
+git push
 
 git add style.css 
-git commit -m "Updated colors with new palette scheme"
+git commit -m "Changed text colors to dark grey" 
 git push
