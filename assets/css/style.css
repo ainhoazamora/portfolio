@@ -1900,3 +1900,34 @@ git push
 git add style.css
 git commit -m "Updated background colors"
 git push
+
+/* CSS Variables */
+:root {
+  --smoky-black: #294969; /* Indigo dye */
+}
+
+/* Main background */
+.sidebar,
+article {
+  background: #8A9FA3; /* Cadet gray */
+}
+
+/* Service items, cards, etc */
+.service-item,
+.testimonials-item,
+.content-card,
+.blog-post-item > a::before {
+  background: #EBF5DC !important; /* Beige */
+}
+
+/* Accents/hover states */
+.modal-close-btn,
+.filter-select,
+.select-list {
+  background: #AFBDA9; /* Ash gray */
+}
+
+
+git add style.css 
+git commit -m "Updated colors with new palette scheme"
+git push
