@@ -60,9 +60,9 @@
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
   --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: ##31577C;
-  --white-1: #333333;
-  --white-2: #444444;
+  --smoky-black: #31597F;
+  --white-1: #FFFFFF;
+  --white-2: #FFFFFF;
   --orange-yellow-crayola: hsl(45, 100%, 72%);
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: #666666;
@@ -1908,3 +1908,8 @@ git push
 git add style.css
 git commit -m "Updated background colors"
 git push
+
+git add style.css
+git commit -m "Updated background colors"
+git push
+
