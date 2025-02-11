@@ -65,8 +65,8 @@
   --white-2: #FFFFFF;
   --orange-yellow-crayola: hsl(45, 100%, 72%);
   --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: #666666;
-  --light-gray-70: hsla(0, 0%, 40%, 0.7);
+  --light-gray: #FFFFFF;
+  --light-gray-70: hsla(0, 0%, 100%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
   /**
