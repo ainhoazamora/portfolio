@@ -524,7 +524,7 @@ main {
 
 .service-item {
   position: relative;
-  background: #3A6D8C;
+  background: #A7BFD7;
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
@@ -535,7 +535,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: #3A6D8C;
+  background: #A7BFD7;
   border-radius: inherit;
   z-index: -1;
 }
