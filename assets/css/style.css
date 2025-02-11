@@ -167,7 +167,7 @@ body { background: var(--smoky-black); }
 
 .sidebar,
 article {
-  background: #AFBDA9;
+  background: #001F3F;
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -524,7 +524,7 @@ main {
 
 .service-item {
   position: relative;
-  background: #EBF5DC;
+  background: ##3A6D8C;
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
@@ -535,7 +535,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: #EBF5DC;
+  background: ##3A6D8C;
   border-radius: inherit;
   z-index: -1;
 }
