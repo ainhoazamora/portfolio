@@ -1,236 +1,959 @@
-vCard - Personal Portfolio
+<!DOCTYPE html>
+<html lang="en">
 
-# sidebar
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
 
-alt = Ainhoa Zamora
-Law and Criminology Student
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-Show Contacts
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-Email
-ainhoazamoram@gmail
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
 
-Phone
-(+34) 691 24 40 55
+<body>
 
-Location
-Ghent, Belgium
+  <!--
+    - #MAIN
+  -->
 
-# navbar
+  <main>
 
-About
-Resume
-Portfolio
-Blog
-Contact
+    <!--
+      - #SIDEBAR
+    -->
 
-# about
+    <aside class="sidebar" data-sidebar>
 
-About me
- My name is Ainhoa Zamora Martínez, and I’m a criminology professional with a passion for research, strategy, 
- and making a positive impact.  
- With a First-Class Honours degree in Criminology from the University of Bristol and global experience 
-through the IMARC program, I bring a critical and analytical mindset to every challenge. 
-My background reflects a commitment to fostering innovative solutions and contributing to meaningful change
-in diverse, dynamic environments. 
+      <div class="sidebar-info">
 
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
 
-## service
+        <div class="info-content">
+          <h1 class="name" title="Ainhoa Zamora">Ainhoa Zamora</h1>
 
-What i'm doing
+          <p class="title">Criminology Researcher & Fraud Analyst</p>
+        </div>
 
-alt = pencil icon
-Double master programme at Erasmus University Rotterdam and Ghent Universiteit
-IMARC PROGRAMME - International Master´s Advanced Research in Criminology
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-alt = Web development icon
-Programming
-Learning new ways of performing quantitative and qualitative studies using Python.
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
 
-alt = book icon
-Reading
+      </div>
 
-alt = camera icon
-Photography
-In my free time I take photos :)
+      <div class="sidebar-info_more">
 
+        <div class="separator"></div>
 
-## testimonials
+        <ul class="contacts-list">
 
-Testimonials
+          <li class="contact-item">
 
-alt = pablito
-Pablo Chedas
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
 
-alt = Natasha Carver
-NOMBRE PERSONA
-PASTE HERE LETTER OF RECCOMENDATION
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-alt = Nasrul Ismail
-nOMBRE PERSONA
+              <a href="mailto:Ainhoa.Zamora@UGent.be" class="contact-link">Ainhoa.Zamora@UGent.be</a>
+            </div>
 
+          </li>
 
-# resume
+          <li class="contact-item">
 
-Resume
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
 
-Education
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
 
-Erasmus University Rotterdam & Ghent Universiteit
-    2024 — 2026 (expected)
-IMARC PROGRAMME - International Master´s Advanced Research in Criminology
-++++INFO INFO INOF ++++
+              <a href="tel: (+34) 691 24 40 55" class="contact-link">(+34) 691 24 40 55</a>
+            </div>
 
-University of Bristol
-    2020 — 2023
-Bachelor of Science in Criminology
-    - Modules include Globalisation and Crime, Criminalising Welfare, Gender-Based 
-      Violence, and Social Research Methods.
-    - Use of statistical software such as SPSS, ANOVA, NVIVO.
+          </li>
 
-Agora Barcelona International School
-    2018 — 2020
-International Baccalaureate Diploma Programme
+          <li class="contact-item">
 
-Experience
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
 
-Commercial Coordinator
-    2023 — Present
-Inditex - Zara (UK) & Stradivarius (The Netherlands)
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
 
-Peer-Mentor
-    2021 — 2023
-University of Bristol
+              <time datetime="1982-06-23">December 4, 2002</time>
+            </div>
 
-Research Internship
-    2010 — 2013
-Key4Life Organisation
-- Developing a report about rehabilitative programmes for young offenders at risk of going to prison across London and the South West of the United Kingdom.
+          </li>
 
+          <li class="contact-item">
 
-My skills
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-Qualitative studies
-70%
-Quantitative studies
-80%
-++++
-90%
-++++
-50%
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
 
+              <address>Ghent, Belgium</address>
+            </div>
 
+          </li>
 
-# portfolio
+        </ul>
 
-Portfolio
+        <div class="separator"></div>
 
-All
-Web design
-Applications
-Web development
+        <ul class="social-list">
 
-Select category
-All
-Web design
-Applications
-Web development
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
 
-alt = finance
-Finance
-Web development
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
 
-alt = orizon
-Orizon
-Web development
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
 
-alt = fundo
-Fundo
-Web design
+        </ul>
 
-alt = brawlhalla
-Brawlhalla
-Applications
+      </div>
 
-alt = dsm.
-DSM.
-Web design
+    </aside>
 
-alt = metaspark
-MetaSpark
-Web design
+    <!--
+      - #main-content
+    -->
 
-alt = summary
-Summary
-Web development
+    <div class="main-content">
 
-alt = task manager
-Task Manager
-Applications
+      <!--
+        - #NAVBAR
+      -->
 
-alt = arrival
-Arrival
-Web development
+      <nav class="navbar">
 
+        <ul class="navbar-list">
 
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
 
-# blog
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
 
-Blog
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+      
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
 
-alt = Design conferences in 2022
-Design
-Fab 23, 2022
-Design conferences in 2022
-Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+        </ul>
 
-alt = Best fonts every designer
-Design
-Fab 23, 2022
-Best fonts every designer
-Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+      </nav>
 
-alt = Design digest #80
-Design
-Fab 23, 2022
-Design digest #80
-Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+      <!--
+        - #ABOUT
+      -->
 
-alt = UI interactions of the week
-Design
-Fab 23, 2022
-UI interactions of the week
-Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+      <article class="about  active" data-page="about">
 
-alt = The forgotten art of spacing
-Design
-Fab 23, 2022
-The Forgotten Art Of Spacing
-Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-alt = Design digest #79
-Design
-Fab 23, 2022
-Design Digest #79
-Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+        <section class="about-text">
+          <p>
+            Hi, I'm Ainhoa Zamora Martínez!
 
+            <p>
 
+            I'm a criminology researcher with a strong focus on computational methods and data-driven analysis.
+            My work bridges criminological theory with advanced machine learning techniques to uncover patterns in complex social phenomena.
 
-# contact
+          <p>
 
-Contact
+            Currently pursuing an International Master's in Advanced Research in Criminology (IMARC), I specialize in applying
+            predictive modeling and explainable AI to criminological research. My technical toolkit includes ensemble methods
+            such as XGBoost and Random Forest for classification and prediction tasks, alongside network analysis approaches
+            using Heterogeneous Bipartite Social Ties (HBST) to map relational dynamics in criminal networks.
 
-Contact Form
+          <p>
 
-Full name
-Email address
-Your Message
+            A key aspect of my research involves ensuring model interpretability through Explainable AI (XAI) frameworks.
+            I employ SHAP (SHapley Additive exPlanations) for global feature importance analysis and local prediction
+            interpretation, as well as LIME (Local Interpretable Model-agnostic Explanations) to understand individual
+            case predictions. This combination allows me to not only build accurate models but also provide transparent,
+            actionable insights for policy development and intervention strategies.
 
-Send Message
+            <p>
+            With a First-Class Honours degree in Criminology from the University of Bristol and hands-on experience as a
+            Fraud Analyst, I bring both theoretical rigor and practical application to my research, focusing on areas such
+            as human trafficking, migration patterns, financial crime, and border security.
+          </p>
+        </section>
 
-mv index.txt index.html
+        <!--
+          - service
+        -->
 
+        <section class="service">
 
+          <h3 class="h3 service-title">What I'm doing</h3>
 
+          <ul class="service-list">
 
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Pursuing a Dual Master´s Degree</h4>
+
+                <p class="service-item-text">
+                  • IMARC Programme (International Master's in Advanced Research in Criminology) <br>
+                  • Joint program between Erasmus University Rotterdam & Ghent University <br>
+                  • Focusing on innovative approaches to criminological research and policy development <br>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web programming</h4>
+
+                <p class="service-item-text">
+                  • Self-teaching Python programming for research applications <br>
+                  • Developing skills in data visualization and statistical analysis in Criminology
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Literary Pursuits</h4>
+
+                <p class="service-item-text">
+                  • Immersed in Gabriel García Márquez's masterpiece "Cien años de soledad" <br>
+                  • Getting lost in Macondo's world <br>
+                  • Perfect companion for rainy afternoons <br>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                 • Amateur photography enthusiast
+                 • Capturing moments that highlight social narratives
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Erasmus Universiteit Rotterdam & Ghent Universiteit</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                International Master's in Advanced Research in Criminology (IMARC)<br>
+                Hybrid programme focusing on Advanced European Criminal Policy, Research Methods, Migration Policy, and Cybercrime & Technology
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Bristol</h4>
+
+              <span>2020 — 2023</span>
+
+              <p class="timeline-text">
+                BSc in Criminology (Faculty of Social Sciences and Law)<br>
+                Grade awarded: First Class Honours<br>
+                Active member of Criminal Justice Society and Bristol Law Club
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Agora Barcelona International School</h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+                Double Degree: International Baccalaureate (IB) & LOMCE Baccalaureate<br>
+                Grade awarded: 11.8/14
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Fraud Analyst</h4>
+
+              <span>August 2024 — Present</span>
+
+              <p class="timeline-text">
+                Indra & CaixaBank, Barcelona, Spain<br>
+                • Analyse financial transactions to identify suspicious patterns and prevent fraudulent activity<br>
+                • Utilise data analysis tools and behavioural indicators to detect anomalies and emerging fraud trends<br>
+                • Ensure compliance with internal policies, regulatory standards, and data protection requirements
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Commercial Coordinator</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Inditex - Zara (UK) & Stradivarius (The Netherlands)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Peer Mentor</h4>
+
+              <span>March 2021 — March 2023</span>
+
+              <p class="timeline-text">
+                University of Bristol, United Kingdom<br>
+                • Mentored first-year students, offering academic support and personal guidance<br>
+                • Communicated complex university procedures in a clear and supportive manner
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Intern</h4>
+
+              <span>October 2021 — June 2022</span>
+
+              <p class="timeline-text">
+                Key4Life & Bean Research, Bristol, United Kingdom<br>
+                • Contributed to developing a report on rehabilitative programmes for young offenders at risk of incarceration across the UK<br>
+                • Provided guidance and support to at-risk youth to steer them away from criminal and incarcerating paths
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Committee Member</h4>
+
+              <span>May 2022 — November 2022</span>
+
+              <p class="timeline-text">
+                University of Bristol - Spanish Society, United Kingdom<br>
+                • Co-organised cultural events on Spanish-speaking literatures, history, and identity<br>
+                • Contributed written materials and communications to promote events, developing digital content skills
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Qualitative papers</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Quantitative papers</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">R</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SPSS IBM</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Master Papers</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Bachelor Papers</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Extras</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Master Papers</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Bachelor Papers</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Extras</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="master papers">
+              <a href="assets/Policy Making in HT - A Critical Examination of a Quantitative Dataset.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/images papers/2 openart-image_k_LM_14t_1739296490472_raw.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Policy Making in Human Trafficking</h3>
+
+                <p class="project-category">Master Papers</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="master papers">
+              <a href="assets/papers folder/Critical Analysis of Valencia's Flood Response.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/images papers/3 openart-image_Uj43sUll_1739296599488_raw.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Critical Analysis of Institutional Responses to Natural Floods</h3>
+
+                <p class="project-category">Master Papers</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="bachelor papers">
+              <a href="assets/papers folder/Neoliberalism and Big Pharma.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/images papers/1 openart-image_-uZ7JY3j_1739296440729_raw.jpg" alt="Neoliberalism and Big Pharma" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Neoliberalism and Big Pharma</h3>
+
+                <p class="project-category">Bachelor Papers</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="bachelor papers">
+              <a href="assets/papers folder/Dissertation.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/images papers/4 openart-image_FQyq_kW9_1739296639352_raw.jpg" alt="Bachelor's Thesis: Gun Control Policies in the US" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bachelor's Thesis: Gun Control Policies in the US</h3>
+
+                <p class="project-category">Bachelor Papers</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="bachelor papers">
+              <a href="assets/papers folder/Justice After Conflict- Restorative, International and Lay Approaches.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/images papers/5 openart-image_k3_lYKvA_1739296723357_raw.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Evaluating Restorative, International, and Lay Approaches</h3>
+
+                <p class="project-category">Bachelor Papers</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="bachelor papers">
+              <a href="assets/papers folder/Criminal Law in the Metaverse.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/images papers/6 openart-image_kb2IsLmO_1739296755778_raw.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Criminal Law in the Metaverse</h3>
+
+                <p class="project-category">Bachelor Papers</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="bachelor papers">
+              <a href="assets/papers folder/Intersectionality and Domestic Violence Policies.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/images papers/7openart-image_DgMP5k3-_1739296833075_raw.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Intersectionality and Domestic Violence Policies</h3>
+
+                <p class="project-category">Bachelor Papers</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="bachelor papers">
+              <a href="assets/papers folder/Poster Human trafficking.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/images papers/openart-image_BgHf8k9c_1739299726874_raw.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Poster: Human Trafficking and Globalisation</h3>
+
+                <p class="project-category">Bachelor Papers</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="bachelor papers">
+              <a href="assets/papers folder/State Crime and Globalisation - y2.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/images papers/8openart-image_1aSfggWS_1739296883297_raw.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">State Crimes: US invasion of Iraq</h3>
+
+                <p class="project-category">Bachelor Papers</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2462.380651882917!2d3.722061712103223!3d51.05121827159506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3714432d15a9f%3A0xf0e38d077091ca41!2sCampus%20Aula%20-%20Universidad%20de%20Gent!5e1!3m2!1ses!2sbe!4v1741354094879!5m2!1ses!2sbe"
+      width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+'use strict';
+
+// Wait for DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+
+// element toggle function
+const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
+
+// sidebar variables
+const sidebar = document.querySelector("[data-sidebar]");
+const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+
+// sidebar toggle functionality for mobile
+if (sidebarBtn) {
+  sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
+}
+
+// page navigation variables
+const navigationLinks = document.querySelectorAll("[data-nav-link]");
+const pages = document.querySelectorAll("[data-page]");
+
+console.log('Navigation links found:', navigationLinks.length);
+console.log('Pages found:', pages.length);
+
+// add event to all nav link
+navigationLinks.forEach(function(navLink, index) {
+  navLink.addEventListener("click", function(e) {
+    e.preventDefault();
+    
+    const clickedPage = this.textContent.trim().toLowerCase();
+    console.log('Clicked:', clickedPage);
+    
+    // Remove active class from all pages and nav links
+    pages.forEach(function(page) {
+      page.classList.remove("active");
+    });
+    
+    navigationLinks.forEach(function(link) {
+      link.classList.remove("active");
+    });
+    
+    // Add active class to clicked nav link
+    this.classList.add("active");
+    
+    // Find and activate the corresponding page
+    pages.forEach(function(page) {
+      if (page.dataset.page === clickedPage) {
+        page.classList.add("active");
+        console.log('Activated page:', clickedPage);
+      }
+    });
+    
+    window.scrollTo(0, 0);
+  });
+});
+
+// custom select variables
+const select = document.querySelector("[data-select]");
+const selectItems = document.querySelectorAll("[data-select-item]");
+const selectValue = document.querySelector("[data-selecct-value]");
+const filterBtn = document.querySelectorAll("[data-filter-btn]");
+
+if (select) {
+  select.addEventListener("click", function () { elementToggleFunc(this); });
+}
+
+// add event in all select items
+selectItems.forEach(function(item) {
+  item.addEventListener("click", function () {
+    let selectedValue = this.innerText.toLowerCase();
+    if (selectValue) {
+      selectValue.innerText = this.innerText;
+    }
+    if (select) {
+      elementToggleFunc(select);
+    }
+    filterFunc(selectedValue);
+  });
+});
+
+// filter variables
+const filterItems = document.querySelectorAll("[data-filter-item]");
+
+const filterFunc = function (selectedValue) {
+  filterItems.forEach(function(item) {
+    if (selectedValue === "all") {
+      item.classList.add("active");
+    } else if (selectedValue === item.dataset.category.toLowerCase()) {
+      item.classList.add("active");
+    } else {
+      item.classList.remove("active");
+    }
+  });
+}
+
+// add event in all filter button items for large screen
+let lastClickedBtn = filterBtn[0];
+
+filterBtn.forEach(function(btn) {
+  btn.addEventListener("click", function () {
+    let selectedValue = this.innerText.toLowerCase();
+    if (selectValue) {
+      selectValue.innerText = this.innerText;
+    }
+    filterFunc(selectedValue);
+    if (lastClickedBtn) {
+      lastClickedBtn.classList.remove("active");
+    }
+    this.classList.add("active");
+    lastClickedBtn = this;
+  });
+});
+
+// contact form variables
+const form = document.querySelector("[data-form]");
+const formInputs = document.querySelectorAll("[data-form-input]");
+const formBtn = document.querySelector("[data-form-btn]");
+
+// add event to all form input field
+formInputs.forEach(function(input) {
+  input.addEventListener("input", function () {
+    // check form validation
+    if (form && form.checkValidity()) {
+      formBtn.removeAttribute("disabled");
+    } else {
+      formBtn.setAttribute("disabled", "");
+    }
+  });
+});
+
+}); // End of DOMContentLoaded
+  </script>
