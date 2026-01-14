@@ -24,49 +24,49 @@
   /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
-    to bottom right, 
-    hsl(240, 1%, 25%) 3%, 
-    hsl(0, 0%, 19%) 97%
+    to bottom right,
+    #AEBDCA 3%,
+    #7895B2 97%
   );
   --bg-gradient-jet: linear-gradient(
-    to bottom right, 
-    hsla(240, 1%, 18%, 0.251) 0%, 
-    hsla(240, 2%, 11%, 0) 100%
-  ), hsl(240, 2%, 13%);
+    to bottom right,
+    rgba(174, 189, 202, 0.251) 0%,
+    rgba(120, 149, 178, 0) 100%
+  ), #7895B2;
   --bg-gradient-yellow-1: linear-gradient(
-    to bottom right, 
-    hsl(45, 100%, 71%) 0%, 
-    hsla(36, 100%, 69%, 0) 50%
+    to bottom right,
+    #E8DFCA 0%,
+    rgba(232, 223, 202, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
-    135deg, 
-    hsla(45, 100%, 71%, 0.251) 0%, 
-    hsla(35, 100%, 68%, 0) 59.86%
-  ), hsl(240, 2%, 13%);
+    135deg,
+    rgba(232, 223, 202, 0.251) 0%,
+    rgba(232, 223, 202, 0) 59.86%
+  ), #AEBDCA;
   --border-gradient-onyx: linear-gradient(
-    to bottom right, 
-    hsl(0, 0%, 25%) 0%, 
-    hsla(0, 0%, 25%, 0) 50%
+    to bottom right,
+    #AEBDCA 0%,
+    rgba(174, 189, 202, 0) 50%
   );
   --text-gradient-yellow: linear-gradient(
-    to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    to right,
+    #7895B2,
+    #5A7A9B
   );
 
 /* solid */
---jet: #1e3a5f;
---onyx: #1e3a5f;
---eerie-black-1: #1e3a5f;
---eerie-black-2: #1e3a5f;
---smoky-black: #1e3a5f;
---white-1: #ffffff;
---white-2: #ffffff;
---orange-yellow-crayola: #ff6b35;
---vegas-gold: #ff6b35;
---light-gray: #f5f5f5;
---light-gray-70: #f5f5f5;
---bittersweet-shimmer: #ff6b35;
+--jet: #7895B2;
+--onyx: #AEBDCA;
+--eerie-black-1: #5A7A9B;
+--eerie-black-2: #7895B2;
+--smoky-black: #4A5F7A;
+--white-1: #F5EFE6;
+--white-2: #E8DFCA;
+--orange-yellow-crayola: #7895B2;
+--vegas-gold: #7895B2;
+--light-gray: #F5EFE6;
+--light-gray-70: rgba(245, 239, 230, 0.7);
+--bittersweet-shimmer: #AEBDCA;
 
   /**
    * typography
