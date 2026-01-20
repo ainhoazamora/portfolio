@@ -59,7 +59,7 @@
 --onyx: #AEBDCA;
 --FONDO CUADROS: ##B4C0CA;
 --prueba: #B4C0CA;
---FONDO: #E1F1FD;
+--FONDO: #e0ecf2;
 --white-1: #F5EFE6;
 --white-2: #E8DFCA;
 --orange-yellow-crayola: #7895B2;
@@ -166,7 +166,7 @@ body { background: var(--smoky-black); }
 
 .sidebar,
 article {
-  background: #B4C0CA;
+  background: #3e6589;
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
