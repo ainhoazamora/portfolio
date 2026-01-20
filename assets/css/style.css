@@ -35,7 +35,7 @@
   ), #7895B2;
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right,
-    #FFFFFF 0%,
+    #E8DFCA 0%,
     rgba(232, 223, 202, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
@@ -55,9 +55,18 @@
   );
 
 /* solid */
---jet: #B4C0CA;
+--jet: #7895B2;
 --onyx: #AEBDCA;
---white-1: #FFFFFF;
+--eerie-black-1: #5A7A9B;
+--eerie-black-2: #7895B2;
+--smoky-black: #4A5F7A;
+--white-1: #F5EFE6;
+--white-2: #E8DFCA;
+--orange-yellow-crayola: #7895B2;
+--vegas-gold: #7895B2;
+--light-gray: #F5EFE6;
+--light-gray-70: rgba(245, 239, 230, 0.7);
+--bittersweet-shimmer: #AEBDCA;
 
   /**
    * typography
@@ -145,7 +154,7 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: #e0ecf2; }
+body { background: var(--smoky-black); }
 
 
 
@@ -157,7 +166,7 @@ body { background: #e0ecf2; }
 
 .sidebar,
 article {
-  background: #3e6589;
+  background: #4E7499;
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -182,7 +191,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #F5EFE6;
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
@@ -350,8 +359,8 @@ main {
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: #FFFFFF;
-  background:#7a9ec7;
+  color: var(--orange-yellow-crayola);
+  background: var(--border-gradient-onyx);
   padding: 10px;
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
@@ -369,10 +378,10 @@ main {
 }
 
 .info_more-btn:hover,
-.info_more-btn:focus { background: #7a9ec7; }
+.info_more-btn:focus { background: var(--bg-gradient-yellow-1); }
 
 .info_more-btn:hover::before,
-.info_more-btn:focus::before { background: #7a9ec7; }
+.info_more-btn:focus::before { background: var(--bg-gradient-yellow-2); }
 
 .info_more-btn span { display: none; }
 
@@ -1905,4 +1914,3 @@ git push
 git add style.css
 git commit -m "Updated background colors"
 git push
-
