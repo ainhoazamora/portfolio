@@ -56,10 +56,11 @@
 
 /* solid */
 --jet: #7895B2;
+--jet: #B4C0CA;
 --onyx: #AEBDCA;
---eerie-black-1: #5A7A9B;
---eerie-black-2: #7895B2;
---smoky-black: #4A5F7A;
+--FONDO CUADROS: ##B4C0CA;
+--prueba: #B4C0CA;
+--FONDO: #E1F1FD;
 --white-1: #F5EFE6;
 --white-2: #E8DFCA;
 --orange-yellow-crayola: #7895B2;
@@ -94,7 +95,7 @@
   /**
    * shadow
    */
-  
+
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
   --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
@@ -1640,7 +1641,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: max-content;
     margin-left: auto;
   }
-  
+
 }
 
 
