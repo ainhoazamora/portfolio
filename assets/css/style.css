@@ -57,16 +57,7 @@
 /* solid */
 --jet: #B4C0CA;
 --onyx: #AEBDCA;
---FONDO CUADROS: ##B4C0CA;
---prueba: #B4C0CA;
---FONDO: #e0ecf2;
 --white-1: #F5EFE6;
---white-2: #E8DFCA;
---orange-yellow-crayola: #7895B2;
---vegas-gold: ##B4C0CA;
---light-gray: #F5EFE6;
---light-gray-70: rgba(245, 239, 230, 0.7);
---bittersweet-shimmer: #AEBDCA;
 
   /**
    * typography
@@ -154,7 +145,7 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body { background: #e0ecf2; }
 
 
 
