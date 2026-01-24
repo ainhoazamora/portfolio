@@ -851,7 +851,7 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form action="https://formspree.io/f/mbdgqnvq" method="POST" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -1017,6 +1017,37 @@ formInputs.forEach(function(input) {
     }
   });
 });
+// --- NEW SUBMISSION LOGIC START ---
+form.addEventListener("submit", function (event) {
+  event.preventDefault(); // This stops the page from redirecting to Formspree
 
+  // Change button text to show it's working
+  const btnText = formBtn.querySelector("span");
+  const originalText = btnText.innerText;
+  btnText.innerText = "Sending...";
+
+  const formData = new FormData(form);
+
+  fetch(form.action, {
+    method: 'POST',
+    body: formData,
+    headers: {
+      'Accept': 'application/json'
+    }
+  }).then(response => {
+    if (response.ok) {
+      alert("Thanks, Ainhoa received your message!");
+      form.reset(); // Clears the inputs
+      formBtn.setAttribute("disabled", ""); // Re-disables the button
+    } else {
+      alert("Oops! There was a problem. Please try again.");
+    }
+  }).catch(error => {
+    alert("Error: Could not connect to the server.");
+  }).finally(() => {
+    btnText.innerText = originalText; // Resets button text
+  });
+});
+// --- NEW SUBMISSION LOGIC END ---
 }); // End of DOMContentLoaded
   </script>
